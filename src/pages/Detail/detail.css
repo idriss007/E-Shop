@@ -1,0 +1,45 @@
+.detail-container {
+    background-color: rgb(210, 207, 199);
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: solid 1px black;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.image {
+    width:200px;
+    min-height: 200px;
+    object-fit: contain;
+}
+
+.desc-container {
+    padding:20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.desc {
+    font-size: 18px;
+}
+
+.price {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
